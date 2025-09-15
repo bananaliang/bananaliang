@@ -1,0 +1,107 @@
+/* Style for the entire page */
+body {
+  border-style: solid; /* Adds a solid border around the body */
+  border-width: 60px; /* Border thickness */
+  border-color: rgb(255, 6, 222); /* Bring pink border color */
+  background-color: lightpink; /* Background color of the page */
+  font-family: 'Courier New', Courier, monospace; /* Sets the font style */
+}
+
+/* Main heading */
+h1 {
+  color: orange; /* Text color */
+  text-align: center; /* Makes the heading text center */
+  background-color: blanchedalmond; /* Background color for heading */
+}
+
+/* Second heading */
+h2 {
+  color: green; /* Text color */
+  text-align: center; /* Makes the heading text center */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Sets the Font style */
+  font-size: 30px; /* Font size 30px */
+}
+
+/* Inline text inside <span> */
+span {
+  color: blue;                         /* Blue text */
+  font-style: italic;                  /* Sets the font style to Italic */
+}
+
+/* Paragraph styling */
+p {
+  background-color: deepskyblue; /* Blue background */
+  text-align: center; /* Makes the paragraph centered */
+  margin-top: 5px; /* Add space above */
+  margin-bottom: 5px; /* Add space below */
+  margin-left: 5px; /* Add space left */
+  margin-right: 5px; /* Add space right */
+  font-weight: bold; /* Makes it Bold */
+  padding-top: 20.5px; /* Padding inside top */
+  padding-bottom: 20.5px; /* Padding inside bottom */
+  border-radius: 67px; /* Rounded corners */
+  color: blueviolet; /* Text color */
+  border: 5px solid black; /* Black border */
+  width: 98.5%; /* Changes the width to 98.5% */
+}
+
+/* Default image styling */
+img {
+  width: 20%; /* Changes the width to 20% */
+}
+
+/* Snacks image */
+img.snacks {
+  width: 30%; /* Changes the width to 30% */
+  height: 30%; /* Changes the height to 30% */
+  margin-top: 80px; /* Push image down */
+  margin-right: 15%; /* Push image from right */
+  float: right; /* Moves image to right side */
+  border-radius: 15px; /* Rounded corners */
+}
+
+/* "Bakin" image */
+img.bakin {
+  width: 40%; /* Changes the width to 40% */
+  height: 40%; /* Changes the width to 40% */
+  margin-left: auto; /* Centers horizontally */
+  margin-right: auto; /* Centers horizontally */
+  margin-top: 80px; /* Add space above */
+  border-radius: 15px; /* Rounded corners */
+}
+
+/* "Baking" image */
+img.baking {
+  width: 40%; /* Changes the width to 40% */
+  height: 40%; /* Changes the height to 40% */
+  margin-left: 100px; /* Space on left */
+  border-radius: 15px; /* Rounded corners */
+  margin-top: 50px; /* Add space above */
+}
+
+/* Cookies and Cake images */
+img.cookies, img.cake {
+  margin-bottom: 250px; /* Add space below */
+  margin-left: 20px; /* Add space left */
+  padding-left: 10px; /* Padding inside left */
+  border-radius: 15px; /* Rounded corners */
+}
+
+/* Biscuit and Indian images */
+img.biscuit, img.indian {
+  margin-top: 300px; /* Pushes the images down */
+  margin-right: 55px; /* Pushes the images left */
+  margin-left: 25px; /* Pushes the images right */
+  border-radius: 15px; /* Rounded corners */
+}
+
+/* Buttons */
+button {
+  width: 240px; /* Chances the width to 240px */
+  border-radius: 15px; /* Rounded corners */
+}
+
+/* Div in center buttons */
+div.centerbutton {
+  text-align: center; /* Centers button horizontally */
+}
